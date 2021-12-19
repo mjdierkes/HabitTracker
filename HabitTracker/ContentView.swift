@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject private var model = TrackerModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+//        CalendarView()
+        HomePage()
+            .environmentObject(model)
+//            MainView()
+//        Test()
     }
 }
 

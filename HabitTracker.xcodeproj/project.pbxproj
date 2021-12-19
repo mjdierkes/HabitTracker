@@ -7,18 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70A598D271E5D7400D61385 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A598C271E5D7400D61385 /* MainView.swift */; };
+		F70A598F271E5D9900D61385 /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A598E271E5D9900D61385 /* TabViewModel.swift */; };
+		F70A5991271E5DCA00D61385 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A5990271E5DCA00D61385 /* CustomTabBarView.swift */; };
+		F70B424F27210A9400382D2B /* OuterRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B424E27210A9400382D2B /* OuterRing.swift */; };
+		F70B425127211FBE00382D2B /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B425027211FBE00382D2B /* AddHabit.swift */; };
+		F70B425B2721358300382D2B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B425A2721358300382D2B /* CalendarView.swift */; };
+		F70B425D272135CD00382D2B /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B425C272135CD00382D2B /* CustomDatePicker.swift */; };
+		F70B425F2721393800382D2B /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B425E2721393800382D2B /* DateValue.swift */; };
+		F74E953D27160F530027709E /* TimerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E953C27160F530027709E /* TimerPage.swift */; };
+		F75782DE270E234F00A352A2 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75782DD270E234F00A352A2 /* HomePage.swift */; };
+		F75782E0270E27C000A352A2 /* SwipeNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75782DF270E27C000A352A2 /* SwipeNavigation.swift */; };
+		F75782E2270E296100A352A2 /* LeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75782E1270E296100A352A2 /* LeftView.swift */; };
+		F75782E4270E2D6C00A352A2 /* ExpandedTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75782E3270E2D6C00A352A2 /* ExpandedTaskView.swift */; };
+		F76186D0271F191400917F6A /* HabitBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76186CF271F191400917F6A /* HabitBarView.swift */; };
+		F77772FC271F45F900661FF3 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77772FB271F45F900661FF3 /* Test.swift */; };
+		F7930B63270E87C3008A669C /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7930B62270E87C3008A669C /* Group.swift */; };
 		F7F905FE26FBACE4000F69B7 /* HabitTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F905FD26FBACE4000F69B7 /* HabitTrackerApp.swift */; };
 		F7F9060026FBACE4000F69B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F905FF26FBACE4000F69B7 /* ContentView.swift */; };
 		F7F9060226FBACE5000F69B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F9060126FBACE5000F69B7 /* Assets.xcassets */; };
 		F7F9060526FBACE5000F69B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F9060426FBACE5000F69B7 /* Preview Assets.xcassets */; };
+		F7F9060F26FBAD29000F69B7 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9060E26FBAD29000F69B7 /* Habit.swift */; };
+		F7F9061126FBAD8E000F69B7 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9061026FBAD8E000F69B7 /* HabitView.swift */; };
+		F7F9061326FBAE0C000F69B7 /* TrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9061226FBAE0C000F69B7 /* TrackerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F70A598C271E5D7400D61385 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F70A598E271E5D9900D61385 /* TabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
+		F70A5990271E5DCA00D61385 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		F70B424E27210A9400382D2B /* OuterRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterRing.swift; sourceTree = "<group>"; };
+		F70B425027211FBE00382D2B /* AddHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabit.swift; sourceTree = "<group>"; };
+		F70B425A2721358300382D2B /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F70B425C272135CD00382D2B /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		F70B425E2721393800382D2B /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		F74E953C27160F530027709E /* TimerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPage.swift; sourceTree = "<group>"; };
+		F75782DD270E234F00A352A2 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		F75782DF270E27C000A352A2 /* SwipeNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeNavigation.swift; sourceTree = "<group>"; };
+		F75782E1270E296100A352A2 /* LeftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftView.swift; sourceTree = "<group>"; };
+		F75782E3270E2D6C00A352A2 /* ExpandedTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedTaskView.swift; sourceTree = "<group>"; };
+		F76186CF271F191400917F6A /* HabitBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitBarView.swift; sourceTree = "<group>"; };
+		F77772FB271F45F900661FF3 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		F7930B62270E87C3008A669C /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		F7F905FA26FBACE4000F69B7 /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F905FD26FBACE4000F69B7 /* HabitTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerApp.swift; sourceTree = "<group>"; };
 		F7F905FF26FBACE4000F69B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7F9060126FBACE5000F69B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7F9060426FBACE5000F69B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7F9060E26FBAD29000F69B7 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		F7F9061026FBAD8E000F69B7 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
+		F7F9061226FBAE0C000F69B7 /* TrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +70,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F70B42522721323300382D2B /* Development */ = {
+			isa = PBXGroup;
+			children = (
+				F77772FB271F45F900661FF3 /* Test.swift */,
+				F70B424E27210A9400382D2B /* OuterRing.swift */,
+				F70A598C271E5D7400D61385 /* MainView.swift */,
+				F75782DF270E27C000A352A2 /* SwipeNavigation.swift */,
+				F70A5990271E5DCA00D61385 /* CustomTabBarView.swift */,
+				F76186CF271F191400917F6A /* HabitBarView.swift */,
+			);
+			path = Development;
+			sourceTree = "<group>";
+		};
+		F70B42542721328B00382D2B /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				F70B425A2721358300382D2B /* CalendarView.swift */,
+				F70B425C272135CD00382D2B /* CustomDatePicker.swift */,
+				F70B425E2721393800382D2B /* DateValue.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
 		F7F905F126FBACE4000F69B7 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +114,11 @@
 			children = (
 				F7F905FD26FBACE4000F69B7 /* HabitTrackerApp.swift */,
 				F7F905FF26FBACE4000F69B7 /* ContentView.swift */,
+				F7F9060B26FBACF7000F69B7 /* Model */,
+				F7F9060C26FBACFF000F69B7 /* View */,
+				F7F9060D26FBAD0D000F69B7 /* ViewModel */,
+				F70B42522721323300382D2B /* Development */,
+				F70B42542721328B00382D2B /* Calendar */,
 				F7F9060126FBACE5000F69B7 /* Assets.xcassets */,
 				F7F9060326FBACE5000F69B7 /* Preview Content */,
 			);
@@ -65,6 +131,37 @@
 				F7F9060426FBACE5000F69B7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7F9060B26FBACF7000F69B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9060E26FBAD29000F69B7 /* Habit.swift */,
+				F7930B62270E87C3008A669C /* Group.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7F9060C26FBACFF000F69B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9061026FBAD8E000F69B7 /* HabitView.swift */,
+				F70B425027211FBE00382D2B /* AddHabit.swift */,
+				F75782DD270E234F00A352A2 /* HomePage.swift */,
+				F75782E1270E296100A352A2 /* LeftView.swift */,
+				F75782E3270E2D6C00A352A2 /* ExpandedTaskView.swift */,
+				F74E953C27160F530027709E /* TimerPage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7F9060D26FBAD0D000F69B7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9061226FBAE0C000F69B7 /* TrackerModel.swift */,
+				F70A598E271E5D9900D61385 /* TabViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +234,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F70B425D272135CD00382D2B /* CustomDatePicker.swift in Sources */,
+				F7F9060F26FBAD29000F69B7 /* Habit.swift in Sources */,
+				F70A598D271E5D7400D61385 /* MainView.swift in Sources */,
+				F70B425127211FBE00382D2B /* AddHabit.swift in Sources */,
+				F70A598F271E5D9900D61385 /* TabViewModel.swift in Sources */,
+				F75782DE270E234F00A352A2 /* HomePage.swift in Sources */,
+				F7F9061126FBAD8E000F69B7 /* HabitView.swift in Sources */,
+				F77772FC271F45F900661FF3 /* Test.swift in Sources */,
+				F74E953D27160F530027709E /* TimerPage.swift in Sources */,
+				F7930B63270E87C3008A669C /* Group.swift in Sources */,
+				F70B424F27210A9400382D2B /* OuterRing.swift in Sources */,
 				F7F9060026FBACE4000F69B7 /* ContentView.swift in Sources */,
+				F70B425F2721393800382D2B /* DateValue.swift in Sources */,
+				F7F9061326FBAE0C000F69B7 /* TrackerModel.swift in Sources */,
 				F7F905FE26FBACE4000F69B7 /* HabitTrackerApp.swift in Sources */,
+				F76186D0271F191400917F6A /* HabitBarView.swift in Sources */,
+				F75782E0270E27C000A352A2 /* SwipeNavigation.swift in Sources */,
+				F75782E4270E2D6C00A352A2 /* ExpandedTaskView.swift in Sources */,
+				F70B425B2721358300382D2B /* CalendarView.swift in Sources */,
+				F75782E2270E296100A352A2 /* LeftView.swift in Sources */,
+				F70A5991271E5DCA00D61385 /* CustomTabBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +393,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +423,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
